@@ -22,6 +22,10 @@ for (var i = 0; i < rakete.length; i++) {
     rakete[i].nX
 }
 */
+
+
+
+
 function main() {
     // Zacetek programa
     // Najdemo canvas in si ga shranimo v globalno spremenljivko
@@ -48,8 +52,12 @@ function main() {
             best.play();
         }
         
-        
-        
+        prompt("igra se sledeče. premikaš se z tipkami w, s, d, a.")
+        prompt(" Powerup se uparablja z tipkami: puščica gor in dol.")
+        prompt("powerupi te teleportirajo na vrh in dno mape.")
+        prompt("Za muziko poskrbijo tipke; m, h, c, b in z")
+        prompt("Želim vam prijetno igranje")
+
         // charlie
         if (e.key == "c") {
             var charlie = new Audio('data/charlie.mp3');
