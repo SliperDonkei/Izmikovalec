@@ -52,12 +52,6 @@ function main() {
             best.play();
         }
         
-        prompt("igra se sledeče. premikaš se z tipkami w, s, d, a.")
-        prompt(" Powerup se uparablja z tipkami: puščica gor in dol.")
-        prompt("powerupi te teleportirajo na vrh in dno mape.")
-        prompt("Za muziko poskrbijo tipke; m, h, c, b, z in f.")
-        prompt("Želim vam prijetno igranje")
-
         // charlie
         if (e.key == "c") {
             var charlie = new Audio('data/charlie.mp3');
