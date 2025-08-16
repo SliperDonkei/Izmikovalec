@@ -203,12 +203,6 @@ function update() {
             rakete[i].nRotation = rakete[i].nRotation - 0.05;
         }
     }
-
-
-
-
-
-
 }
 
 function draw() {
@@ -247,13 +241,6 @@ function draw() {
             drawImageRotated(context, nuke, rakete[i].nX - 75, rakete[i].nY - 50,
                 150, 100, rakete[i].nRotation);
         }
-
-
-
-
-
-
-
     }
 }
    
